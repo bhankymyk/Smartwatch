@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1a2636; 
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}/*
+header .logo{
+    width: 20%;
+    height: 30px;
+    margin: 10px auto;
+
+}*/
+#watch{
+    width: 25rem;
+    height: 25rem;
+    float: left;
+    /*display: grid;
+    grid-template-columns: 200px 0px 0px;
+    grid-gap: 1rem;*/
+}
+#heart{
+    position: absolute;
+    top: 220px;
+    left: 170px;
+    width: 50px;
+    height: 50px;
+    /*visibility: hidden;
+    background-color: lightblue;*/
+}
+b{
+    visibility: hidden;
+}
+#rate{
+    position: absolute;
+    top: 300px;
+    left: 180px;
+    width: 50px;
+    height: 50px;
+   /*visibility: hidden;*/
+    color: lightcoral;
+}
+.content{
+    display: grid;
+    grid-template-columns: 48rem;
+    grid-gap: 1rem;
+    background-color: #fff;
+    padding: 20px;
+    width: auto;
+    margin: 1rem;
+}
+li{
+    list-style: none;
+}
+button{
+    outline: none;
+    border: 0px solid #000;
+    cursor: pointer;
+}
+.buy{
+    padding: 20px;
+    background-color: orange;
+    border-radius: 5px;
+}
+.options{
+    border: 0px solid black ;
+}
+.options li{
+    background-color: rgb(70, 69, 69);
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline;
+    cursor: pointer;
+}
+.color li{
+    padding: 10px 30px ;
+    border-radius: 5px;
+    display: inline;
+    cursor: pointer;
+}
+.color li.black{
+    background-color:#23211f;
+}
+.color li.red{
+    background-color: rgb(250, 32, 32);
+}
+.color li.blue{
+    background-color: rgb(71, 71, 250);
+}
+.color li.pink{
+    background-color: pink;
+}
+.color li.purple{
+    background-color: plum;
+}
