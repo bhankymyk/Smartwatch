@@ -14,7 +14,7 @@ function purple() {
     document.getElementById("watch").src = "https://i.imgur.com/Zygu7I3.png"
 }
 function timer(){
-    document.getElementById("heart").style.visibility = 'hidden';
-    document.getElementById("rate").style.visibility = 'hidden';
-    document.getElementById("time").style.visibility = 'visible';
+    document.getElementById("heart").style.visibility = 'visible';
+    document.getElementById("rate").style.visibility = 'visible';
+    document.getElementById("timer").style.visibility = 'visible';
 }
